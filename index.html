@@ -10,11 +10,17 @@
   <body>
     <main>
       <label>
+        Texto
         <input type="text" name="text" id="text-input" />
+      </label>
+      <label>
+        Imagem
+        <input type="file" name="image" accept="image/" id="meme-insert" />
+      </label>
         <div id="meme-image-container">
           <p id="meme-text"></p>
+          <img id="meme-image" alt="Sem imagem" src=""/>
         </div>
-      </label>
     </main>
     <script src="script.js"></script>
   </body>
