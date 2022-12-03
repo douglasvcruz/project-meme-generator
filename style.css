@@ -13,7 +13,7 @@ main {
 
 #meme-text {
   position: absolute;
-  margin-top: 400px;
+  margin-top: 650px;
   margin-left: 60px;
   color: white;
   font-weight: 900;
@@ -28,13 +28,17 @@ main {
 
 #meme-image-container {
   background-color: white;
-  border: 1px solid black;
   border-radius: 10px;
   overflow: hidden;
-  width: 500px;
-  height: 500px;
+  width: 800px;
+  height: 800px;
   margin: auto;
   margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  border: 1px solid black;
 }
 
 #text-input {
@@ -52,4 +56,34 @@ main {
 
 #meme-insert {
   border: 0;
+}
+
+#fire {
+  background-color: red;
+}
+
+#water {
+  background-color: blue;
+}
+
+#earth {
+  background-color: green;
+}
+
+.fire {
+  border: 3px dashed red;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.water {
+  border: 5px double blue;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.earth {
+  border: 6px groove green;
+  border-radius: 5px;
+  padding: 2px;
 }
