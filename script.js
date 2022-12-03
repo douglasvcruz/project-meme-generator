@@ -16,18 +16,16 @@ const insertTextPrev = () => {
 const insertImagePrev = () => {
   memeInsert.addEventListener('change', (e) => {
     memeImage.src = URL.createObjectURL(e.target.files[0]);
-  })
-}
+  });
+};
 
 const changeBorder = (e) => {
   memeImageContainer.className = e.target.className;
-}
+};
 
 fire.addEventListener('click', changeBorder);
 water.addEventListener('click', changeBorder);
 earth.addEventListener('click', changeBorder);
-
-
 
 insertImagePrev();
 insertTextPrev();
